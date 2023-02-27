@@ -1,0 +1,30 @@
+.productCard {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px 1px rgba(0,0,0,0.3);
+    padding: 1rem;
+    .discount {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        padding: 0.2rem 0.4rem;
+        background-color: rgb(13, 118, 27);
+        color: #fff;
+        border-radius: 5px;
+    }
+    img {
+        max-width: 300px;
+    }
+    .flexBox {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .price {
+            margin-right: 1rem;
+        }
+        .strike {
+            color: rgb(125, 125, 125);
+            text-decoration: line-through;
+        }
+    }
+}
